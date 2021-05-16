@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "name": "Person",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "username": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}
